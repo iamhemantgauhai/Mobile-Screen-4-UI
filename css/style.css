@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* Navbar */
+.nav {
+  height: 10vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 2vw;
+  align-items: center;
+  background: blueviolet;
+  color: white;
+}
+
+.nav-img {
+  margin: 0 0 0 4vw;
+}
+
+.nav-state-select {
+  margin: 0 4vw 0 0;
+}
+
+#states {
+  border-style: none;
+  background: blueviolet;
+  color: white;
+}
+/* Navbar */
+
+section {
+  margin: 2vw;
+  background: lightgrey;
+  border-radius: 2vw;
+  padding: 2vw;
+}
+
+/* Pamplate Section */
+.pamplate {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.pamplate-scooter {
+  width: 4rem;
+  border-radius: 2vw;
+}
+
+.pamplate-text1 {
+  color: gold;
+}
+/* Pamplate Section */
+
+/* WK-Lite Section */
+.wk-lite {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 2vw;
+  margin: 2vw;
+  padding: 2vw;
+  justify-content: space-between;
+}
+
+.wk-heading {
+  color: grey;
+}
+
+.wk-charge-amt {
+  color: grey;
+}
+
+span {
+  color: red;
+}
+
+strike {
+  color: grey;
+}
+/* WK-Lite Section */
+
+/* Knowledge Section */
+.knowledge-box {
+  background: rgb(159, 146, 172);
+  border-radius: 2vw;
+  padding: 1vw;
+  margin: 2vw;
+
+}
+
+.knowledge {
+  margin: 6vw;
+  border-radius: 2vw;
+  background: rgb(159, 146, 172);
+}
+/* Knowledge Section */
